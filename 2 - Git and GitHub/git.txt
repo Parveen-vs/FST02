@@ -11,3 +11,16 @@ git add .
 
 - Create a commit
 git commit -m "This is the description."
+
+- Check history
+git log 
+git log --online
+
+- Branching
+
+- Create a new branch
+git branch [branch_name]
+
+- Switch to a different branch
+git checkout [branch_name]
+git switch [branch_name]
