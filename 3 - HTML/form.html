@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Forms</title>
+</head>
+<body>
+    <h1>Creating Forms</h1>
+    <form action="">
+        <div>
+            <label for="fullname">Name:</label>
+            <input type="text" name="user-fullname" id="fullname" placeholder="John Doe" required>
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="user-email" id="email" placeholder="johndoe@example.com" required>
+        </div>
+
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="user-password" id="password" placeholder="***********" required>
+        </div>
+
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" name="user-age" id="age" placeholder="30" min="18" max="100" required>
+        </div>
+
+        <div>
+            <label for="">Message:</label>
+            <br>
+            <textarea name="user-message" id="message-id"
+            placeholder="What's on your mind?" cols="40" rows="10"></textarea>
+        </div>
+
+        <div>
+            <label for="gender">Gender:</label>
+            <select name="user-gender" id="gender">
+                <option value="" selected disabled hidden>-- SELECT GENDER --</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+            </select>
+        </div>
+
+        <div>
+            <input type="radio" name="profile-status" id="public-id" value="Public">
+            <label for="public-id">Public</label>
+            <input type="radio" name="profile-status" id="private-id" value="Private">
+            <label for="private-id">Private</label>
+        </div>
+        
+        <div>
+            <input type="checkbox" name="genre" id="action" value="action">
+            <label for="action">Action</label>
+            
+            <input type="checkbox" name="genre" id="comedy" value="comedy">
+            <label for="comedy">Comedy</label>
+
+            <input type="checkbox" name="genre" id="suspense" value="suspense">
+            <label for="suspense">Suspense</label>
+        </div>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
