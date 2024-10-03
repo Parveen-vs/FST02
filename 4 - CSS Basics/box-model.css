@@ -1,0 +1,59 @@
+/* Padding (inner spacing) space within the box */
+
+.box1 {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+/* Shorthand - Adding padding to each side */
+/* Clockwise */
+/* 4 values: top right bottom left 
+   3 values: top left&right bottom 
+   2 values: top&bottom left&right 
+   1 values: all sides */
+.box2 {
+    padding: 20px;
+}
+
+/* Adding margin to each side */
+.box3 {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+/* Shorthand - Adding margin to each side */
+/* Clockwise */
+/* 4 values: top right bottom left 
+   3 values: top left&right bottom 
+   2 values: top&bottom left&right 
+   1 values: all sides */
+.box4{
+    margin: 10px;
+}
+
+/* Borders */
+.mix-borders {
+    height: 100px;
+    width: 200px;
+    background-color: aquamarine;
+    border-style: solid double; /* same as shorthand ver above */
+    border-width: 4px;
+    border-color: tomato, yellow, blue, green;
+
+    /* shorthand version */
+    /* border: 10px tomato dashed; */
+}
+
+/* Circle container */
+.circle-container {
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
+    color: tomato;
+}

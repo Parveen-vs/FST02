@@ -1,0 +1,73 @@
+#text-styling {
+    /* Default: Times New Roman */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Font Weight */
+    /* Keyword values */
+    font-weight: bold;
+
+    /* Numeric values */
+    /* [100 - 950] */
+    font-weight: 700; /* Default value is 400, 700 is bold */
+    
+    /* Font Style */
+    font-style: oblique;
+
+    /* Line Height */
+    line-height: 1.5;
+    line-height: 50%;
+    line-height: 16px;
+
+    /* Letter Spacing */ 
+    letter-spacing: 4px; /* adds space*/
+    letter-spacing: -2px; /* removes space*/
+    letter-spacing: normal;
+}
+
+#text-decoration {
+    text-decoration: line-through;
+    text-decoration: overline underline;
+    
+    text-decoration-style: double;
+    text-decoration-style: dotted;
+    text-decoration-style: dashed;
+    text-decoration-style: wavy;
+
+    text-decoration-color: red;
+
+    /* Combine all of them*/
+    text-decoration: underline overline wavy red;
+}
+
+#colors {
+    /* coolors.co */
+    /* Color names */
+    color: white;
+    background-color: pink;
+
+    /* RGB */
+    color: rgb(12, 103, 12);
+    /* alpha - Fully transparent(0.0), Fully Opaque(1.0)*/
+    background-color: rgba(0, 0, 0, 0.3);
+
+    /* Hexadecimal */
+    color: #284b63;
+    background-color: #d9d9d9;
+}
+
+/* Units of Measurement */
+#absolute-unit-px {
+    font-size: 24px;
+}
+
+/* Relative to the parent element */
+#relative-unit-em {
+    font-size: 2em;
+    /* 2(20px) = 40px */
+}
+
+/* Relative to the root element */
+#relative-unit-rem {
+    font-size: 2rem;
+    /* 2(16px) = 32px */
+}
