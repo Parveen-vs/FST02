@@ -1,0 +1,42 @@
+/* Position: static, elements follow the normal flow*/
+
+/* Relative positioning */
+/* Relative to it orignal positioning */
+
+#relative {
+    background-color: #fc0;
+    position: relative;
+    /* top, right, bottom, left */
+    top: 80px;
+    left: 50px;
+}
+
+/* Absolute Position */
+/* Relative to the parent container that have position that is not static */
+#absolute {
+    background-color: #0cf;
+    position: absolute;
+    /* top, right, bottom, left */
+    top: 0;
+    right: 0;
+}
+
+/* Fixed Positioning */
+/* Relative to the viewport */
+/* Stays on the same place when you scroll */
+
+#fixed {
+    background-color: #f00;
+    position: fixed;
+    /* top, right, bottom, left */
+    bottom: 0px;
+    right: 0px;
+}
+
+/* Sticky Positioning */
+#sticky {
+    background-color: #3c3;
+    position: sticky;
+    /* top, right, bottom, left */
+    top: 0px;
+}

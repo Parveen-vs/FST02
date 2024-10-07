@@ -1,0 +1,43 @@
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+
+    /* justify content - sets the alignment on the main axis */
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+
+    
+    /* align-items - sets the alignment on the cross axis */
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: stretch; /* Default */
+
+    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+    /* Push the content down when the content doesn't fit */
+    flex-wrap: nowrap;
+   
+
+    /* Column and Row Gap */
+    column-gap: 20px;
+    row-gap: 20px;
+    gap: 20px;   
+}
+
+.flexItem1 {
+    /* Willingness of items to shrink */
+    flex-shrink: 0;
+    flex-shrink: 1;
+}
+
+.flexItem3 {
+    /* Willingness of items to shrink */
+    flex-grow: 0;
+    flex-grow: 1;
+}
