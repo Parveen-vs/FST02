@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* Header Styles */
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+/* Main body styles */
+.main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* h2 */
+
+.font-family-size {
+    font-size: 1.18em;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.font-family {
+    font-size: 1.2em;
+}
+
+.line-height {
+    line-height: 1.5;
+}
+
+
+div {
+    padding-bottom: 10px;
+}
+
+/* Services */
+.class-name{
+    color: #d9534f;
+    background-color: #f9d6d5;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+#solutions {
+    font-weight: bold;
+    background-color: rgba(168, 177, 179, 0.112);
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+.solutions-parag-container {
+    font-style: italic;
+    color: green;
+}
+
+/* Testimonials */
+
+.box1 {
+    color: white;
+    background-color: #f0ad4e;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.box2 {
+    color: white;
+    background-color: #5bc0de;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.box3 {
+    color: white;
+    background-color: #5cb85c;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.box4 {
+    color: white;
+    background-color: #d9534f;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Project */
+
+h3 {
+    text-align: center;
+    font-size: 17px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 410px;
+    margin-right: 410px;
+    border: 1px solid lightgrey;
+}
+
+.project-highlight {
+    color: rgb(50, 49, 49);
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border-radius: 9px;
+    border:solid #ccc;
+}
+
+/* Pricing */
+.pricing {
+    text-align: center;
+}
+
+.product-name {
+    font-size: 1.3em;
+}
+
+.line-through {
+    font-size: 1.3em;
+    color: rgb(113, 113, 113);
+}
+.sale-price {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: rgb(222, 69, 69);
+}
+
+.email {
+    color: green;
+}
+
+/* Images */
+
+.logo {
+    height: 20px;
+    width: 20px;
+}
+
+/* Footer */
+
+.footer {
+    color: white;
+    background-color: #333;
+    text-align: center;
+    padding-top: 10px;
+}
